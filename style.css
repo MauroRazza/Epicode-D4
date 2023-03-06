@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu */
+
+header{
+    background-color: #222F3E;
+}
+.logo{
+    width: 100px;
+    padding: 10px 30px 10px 30px;
+}
+menu{
+    background-color: #354758;
+    padding: 10px 30px 10px 30px;
+}
+menu button{
+    background: none;
+    border: none;
+}
+menu button a{
+    color: #eaeded;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main */
+
+main{
+    background-color: #EAEDED;
+    padding: 30px;
+}
+.bg-image{
+    background-image: url(assets/bg-image.png);
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    color: #eaeded;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bg-image h1{
+    font-size: 1.8em;
+}
+.text-center {
+    text-align:center;
+    width: 100%;
+} 
+.bg-yellow {
+    color: #eaeded;
+    background-color:#f56600;
+}
+.py-1{
+    padding: 1rem 0;
+}  
+h2{
+    font-weight: 400;
+}
+.box-headline a{
+    color: #017185;
+    padding-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Card */
+
+.box-gift{
+    background-color: white;
+}
+.box-headline{
+    display: flex;
+    align-items: baseline;
+    padding:  20px 30px;
+}
+.box-card{
+    display: flex;
+    align-items: center;
+}
+.card1{
+    background-image: url(assets/img_1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 15px #7e7e7e63;
+    width: 600px;
+    height: 680px;
+    border-radius: 20px;
+    margin: 0 30px 30px 30px;
+}
+.card2{
+    background-image: url(assets/img_2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 15px #7e7e7e63;
+    width: 600px;
+    height: 680px;
+    border-radius: 20px;
+    margin: 0 30px 30px 30px;
+}
+.card3{
+    background-image: url(assets/img_3.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 15px #7e7e7e63;
+    width: 600px;
+    height: 680px;
+    border-radius: 20px;
+    margin: 0 30px 30px 30px;
+}
+.card4{
+    background-image: url(assets/img_4.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 15px #7e7e7e63;
+    width: 600px;
+    height: 680px;
+    border-radius: 20px;
+    margin: 0 30px 30px 30px;
+}
+
+/* Box Accessories */
+
+.box-card-acc{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-acc{
+    width: 20%;
+    background-color: white;
+    margin: 30px 0 0 0;
+    padding: 30px;
+}
+.box-acc h3{
+    padding-bottom: 20px;
+}
+.acc-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-acc{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.content-acc span{
+    padding-top: 5px;
+}
+
+.box-acc a{
+    display: flex;
+    color: #017185;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+/* Box-acc img */
+
+.content-img1{
+    background-image: url(assets/img_15.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img2{
+    background-image: url(assets/img_16.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img3{
+    background-image: url(assets/img_17.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img4{
+    background-image: url(assets/img_18.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img5{
+    background-image: url(assets/img_19.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img6{
+    background-image: url(assets/img_20.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img7{
+    background-image: url(assets/img_21.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img8{
+    background-image: url(assets/img_22.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img9{
+    background-image: url(assets/img_11.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img10{
+    background-image: url(assets/img_12.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img11{
+    background-image: url(assets/img_13.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img12{
+    background-image: url(assets/img_14.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img13{
+    background-image: url(assets/img_24.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img14{
+    background-image: url(assets/img_25.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img15{
+    background-image: url(assets/img_26.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-img16{
+    background-image: url(assets/img_27.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Box Other */
+
+.box-other{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box-img{
+    width: 100%;
+}
+.box-headline2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.box-other a{
+    color: #017185;
+    padding-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Footer */
+
+.bg-dark {
+    color: #eaeded;
+    background-color: #354758;
+}
+a{
+    color: #eaeded;
+}
+.bg-footer{
+    background-color: #222F3E;
+    text-align: center;
+    padding: 50px;
+}
+.logo-footer{
+    width: 200px;
+}
